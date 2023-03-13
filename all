@@ -1,0 +1,84 @@
+
+//2(e) Пользователь вводит параметры фигуры. Найти периметр и площадь фигур: Ромб 
+/*#include <iostream>
+
+int main()
+{
+    float a = 0;
+    float h = 0;
+    float S = 0;
+    float P = 0;
+    std::cin >> a >> h;
+    S = a * h;
+    P = 4 * a;
+    std::cout << S << " " << P;
+}
+*/
+
+
+ /*7.Пользователь вводит число.Выведите на экран квадрат этого числа, куб этого
+числа.*/
+
+/*#include <iostream>
+#include <cmath>
+
+int main() 
+{
+    float a = 0;
+    float kvadrat = 0;
+    float cube = 0;
+    std::cin >> a;
+    kvadrat = pow(a, 2);
+    cube = pow(a, 3);
+    std::cout << kvadrat << " " << cube;
+*/
+
+//8(e). Вычислите значение выражения :
+
+/*
+#include <iostream>
+#include <cmath>
+
+int main() {
+    float x = 3.6;
+    float P = 0;
+    P = exp(x - 2) + abs(sin(x)) - (pow(x, 4) * cos(1 / x));
+    std::cout << P;
+}
+*/
+
+//9(e) Сделать конвертер величин. Формат ввода: Направление_Перевода Величина. Кулинария (чайная, столовая, кружка) 
+
+/*
+#include <iostream>
+#include <cmath>
+
+int main() {
+	float a = 0;
+	float b = 0;
+	float c = 0;
+	std::cin >> a;
+	b = a * 3;
+	c = b * 10;
+	std::cout << a << " " << b << " " << c;
+}
+*/
+
+/*14.Пользователь вводит цены 1 кг конфет и 1 кг печенья. Найдите стоимость:
+ а) одной покупки из 300 г конфет и 400 г печенья; б) трех покупок, каждая из 2 кг печенья и 1 кг 800 г конфет. 
+ Организовать задание с помощью функций.*/
+/*
+#include <iostream>
+#include <cmath>
+
+int main() {
+	float k = 0;
+	float cs = 0;
+	float a = 0;
+	float b = 0;
+	std::cin >> k >> cs;
+	a = (k * 0,3)+(cs * 0,4);
+	b = 3 * ((k * 2)+(cs * 1.8));
+	std::cout << a << " " << b;
+}
+*/
